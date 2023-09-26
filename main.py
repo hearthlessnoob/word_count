@@ -1,4 +1,3 @@
-#fonction principale pour compter le nb de mots(le seul)
+#fonction pour compter le nb de mots, input string, output integer
 def count_word(word):
     return word.count(" ") + 1
-
